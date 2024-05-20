@@ -10,7 +10,7 @@ Firstly, download the installation script (NB! subject to change: maybe compile 
 Then add execution rights for the user for the script. <br>
 And last but not least, run it and pass the Nagios Core public ip to it as an argument. This will allow the script to configure the Nagios Core as a trusted IP.
 ``` 
-$ wget --no-check-certificate -O install.sh https://github.com/DevOps-TextBook/LabEvalAutomation-public/install.sh
+$ wget --no-check-certificate -O install.sh https://github.com/DevOps-TextBook/LabEvalAutomation-public/blob/main/install.sh
 $ sudo chmod u+x install.sh
 $ sudo ./install.sh 172.17.89.137
 ``` 
